@@ -1,0 +1,5 @@
+export  const SHOWMENU='SHOWMENU'
+export const SHOWLOGIN='SHOWLOGIN'
+//export  const HIDEMENU='HIDEMENU'
+export  const UPDATEAK='UPDATEAK'
+export const UPDATEUSERINFO='UPDATEUSERINFO'
