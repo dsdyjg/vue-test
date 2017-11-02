@@ -47,8 +47,8 @@ export default{
       z-index: 1;
       display: inline-block;
       flex: 1;
-      width: 0.6rem;
-      height: 0.6rem;
+      width: 0.5rem;
+      height: 0.5rem;
     }
     i.icon-menu {
       left: 0.4rem;
@@ -68,20 +68,20 @@ export default{
       justify-content: center;
       align-items: center;
       z-index: 1;
-      width: 0.4rem;
-      height: 0.4rem;
+      width: 0.3rem;
+      height: 0.3rem;
       right: 0.2rem;
       top: 0.3rem;
       text-align: center;
       background-color: #ff4081;
       border-radius: 10px;
-      font-size:0.4rem;
+      font-size:0.3rem;
     }
     h1 {
       flex: 5;
       letter-spacing: 2px;
       transition: .3s ease-in-out;
-	  font-size:0.8rem;
+	  font-size:0.4rem;
     }
     h1:hover {
       transform: rotate(8deg);

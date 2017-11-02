@@ -1,9 +1,9 @@
 <template>
-  <div id="app">
+  <div id="app" ref="app">
     <NHeader></NHeader>
 	<NNav></NNav>
 	<NSlider v-show="showMenu"></NSlider>
-	<router-view></router-view>
+	<transition name="fade"><router-view></router-view></transition>
 	<NLogin v-if="showLogin"></NLogin>
   </div>
 </template>
@@ -13,7 +13,6 @@ import NHeader from './components/Header'
 import NNav from './components/Nav'
 import NSlider from './components/Slider'
 import NLogin from './pages/Login'
-import NArticle from './components/Article'
 import {mapGetters} from 'vuex'
 export default {
   name: 'app',
@@ -23,6 +22,8 @@ export default {
        'showMenu',
 	   'showLogin'
    ])
+  },
+  mounted(){
   }
 }
 </script>
@@ -35,7 +36,12 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #fff;
-  overflow:hidden;
   height:100%;
+}
+.fade-enter-active,.fade-leave-active{
+   transition:all 0.3s ease;
+}
+.fade-enter-active,fade-leave-active{
+   opactiy:1;
 }
 </style>
