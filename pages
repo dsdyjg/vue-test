@@ -17724,6 +17724,7 @@
                 <File name="src\pages\Job.vue" />
                 <File name="src\pages\Share.vue" />
                 <File name="src\pages\Content.vue" />
+                <File name="src\pages\List.vue" />
             </Folder>
             <Folder name="router">
                 <File name="src\router\index.js" />
@@ -35627,5 +35628,679 @@
         <File name="D:\dai\scroll\index.html" />
         <File name="D:\dai\scroll\package.json" />
         <File name="D:\dai\scroll\README.md" />
+    </Project>
+    <Project name="music">
+        <Folder name=".git">
+            <Folder name="branches" />
+            <Folder name="hooks">
+                <File name="D:\dai\music\.git\hooks\applypatch-msg.sample" />
+                <File name="D:\dai\music\.git\hooks\commit-msg.sample" />
+                <File name="D:\dai\music\.git\hooks\post-update.sample" />
+                <File name="D:\dai\music\.git\hooks\pre-applypatch.sample" />
+                <File name="D:\dai\music\.git\hooks\pre-commit.sample" />
+                <File name="D:\dai\music\.git\hooks\pre-push.sample" />
+                <File name="D:\dai\music\.git\hooks\pre-rebase.sample" />
+                <File name="D:\dai\music\.git\hooks\pre-receive.sample" />
+                <File name="D:\dai\music\.git\hooks\prepare-commit-msg.sample" />
+                <File name="D:\dai\music\.git\hooks\update.sample" />
+            </Folder>
+            <Folder name="info">
+                <File name="D:\dai\music\.git\info\exclude" />
+            </Folder>
+            <Folder name="logs">
+                <Folder name="refs">
+                    <Folder name="heads">
+                        <File name="D:\dai\music\.git\logs\refs\heads\master" />
+                    </Folder>
+                    <Folder name="remotes">
+                        <Folder name="origin">
+                            <File name="D:\dai\music\.git\logs\refs\remotes\origin\master" />
+                        </Folder>
+                    </Folder>
+                </Folder>
+                <File name="D:\dai\music\.git\logs\HEAD" />
+            </Folder>
+            <Folder name="objects">
+                <Folder name="03">
+                    <File name="D:\dai\music\.git\objects\03\0715be9ddeff786dba6f7c1941790f9b9aecef" />
+                    <File name="D:\dai\music\.git\objects\03\18826d2aeac5080b384a68ccd8dd724a766ea4" />
+                    <File name="D:\dai\music\.git\objects\03\5cb089123526c4e4e4358497def3ade1d2d23b" />
+                </Folder>
+                <Folder name="08">
+                    <File name="D:\dai\music\.git\objects\08\6d1b94ac73f8d41bc51c96ac6944ebdb56ec84" />
+                </Folder>
+                <Folder name="09">
+                    <File name="D:\dai\music\.git\objects\09\75b6b8492be09e18498836e84aa5a6a2ae9414" />
+                </Folder>
+                <Folder name="0d">
+                    <File name="D:\dai\music\.git\objects\0d\c8cb6ade854b5ac0b3dd790ff9b56b742e9056" />
+                </Folder>
+                <Folder name="0e">
+                    <File name="D:\dai\music\.git\objects\0e\012676b23a6f7d19268ed2975f9a8e89a55feb" />
+                </Folder>
+                <Folder name="0f">
+                    <File name="D:\dai\music\.git\objects\0f\14556fdb41a68d1b68ce93a1966515f2334018" />
+                    <File name="D:\dai\music\.git\objects\0f\c51f3a351d6fa5457227159278fba73ad1bc22" />
+                    <File name="D:\dai\music\.git\objects\0f\d133b920986e97dcbfbd7cc52e9e2983bcb17e" />
+                </Folder>
+                <Folder name="14">
+                    <File name="D:\dai\music\.git\objects\14\38e9f5e15a74b2be60160f35b46b0419a77b99" />
+                    <File name="D:\dai\music\.git\objects\14\53302826893f7ba11f89da2c0a16cf45ec7c55" />
+                </Folder>
+                <Folder name="17">
+                    <File name="D:\dai\music\.git\objects\17\b05a682f2ce76eb1b2ad24fb7032ea71318301" />
+                </Folder>
+                <Folder name="1a">
+                    <File name="D:\dai\music\.git\objects\1a\463f5a45f2278b668493f66ecf5a9c3e32075f" />
+                </Folder>
+                <Folder name="1f">
+                    <File name="D:\dai\music\.git\objects\1f\3ddc5657b9278cffbbe61a4cba296fe78cf735" />
+                </Folder>
+                <Folder name="22">
+                    <File name="D:\dai\music\.git\objects\22\6824d0255727efe70cf373693774bf3264859f" />
+                </Folder>
+                <Folder name="26">
+                    <File name="D:\dai\music\.git\objects\26\cc29bb50d9498594eeeba57b22e7672069ab60" />
+                </Folder>
+                <Folder name="28">
+                    <File name="D:\dai\music\.git\objects\28\cb41fd29811421a8a237f557382c50c7f782f2" />
+                </Folder>
+                <Folder name="2a">
+                    <File name="D:\dai\music\.git\objects\2a\cc72ddf128060b147e78f078d8860a2c31f9fd" />
+                    <File name="D:\dai\music\.git\objects\2a\f5fcf257ede61189b09fa6a47808f0e001ebdd" />
+                </Folder>
+                <Folder name="33">
+                    <File name="D:\dai\music\.git\objects\33\02035be5e59865e50b470ae1e556d89078b13d" />
+                </Folder>
+                <Folder name="36">
+                    <File name="D:\dai\music\.git\objects\36\2e0964bbe430ac9578964cc8f3e64f4433e17d" />
+                    <File name="D:\dai\music\.git\objects\36\4a83b584441d60df9774f321d6e8eb7eda86dc" />
+                </Folder>
+                <Folder name="38">
+                    <File name="D:\dai\music\.git\objects\38\b1a567da6da65e470e0a3edbf6147436929418" />
+                </Folder>
+                <Folder name="3b">
+                    <File name="D:\dai\music\.git\objects\3b\7adb49fbab51a4a4bfc6403ef1c7a0f199e3cc" />
+                </Folder>
+                <Folder name="3c">
+                    <File name="D:\dai\music\.git\objects\3c\7890700637330e17e767e65503a907ef5a568f" />
+                </Folder>
+                <Folder name="3e">
+                    <File name="D:\dai\music\.git\objects\3e\71886add2e7815800c6421aedb960b4d80eda6" />
+                </Folder>
+                <Folder name="3f">
+                    <File name="D:\dai\music\.git\objects\3f\37f8b68ef36dadc9c7dc639857ea7ec2ad0386" />
+                    <File name="D:\dai\music\.git\objects\3f\6f7fd592c96bbddbf1fde00945b263460e4a0e" />
+                </Folder>
+                <Folder name="40">
+                    <File name="D:\dai\music\.git\objects\40\f04e93db3a0099621a7cad0c95959e73153b4c" />
+                </Folder>
+                <Folder name="41">
+                    <File name="D:\dai\music\.git\objects\41\0df7a7d517da96f653c1314232ee3dbf9b9345" />
+                </Folder>
+                <Folder name="43">
+                    <File name="D:\dai\music\.git\objects\43\71b5990ac37e0eae18fa68a8d2a8df5049d780" />
+                    <File name="D:\dai\music\.git\objects\43\b87395f4cd457cc626cfaa7cb2d58a7cb2e4ca" />
+                </Folder>
+                <Folder name="45">
+                    <File name="D:\dai\music\.git\objects\45\291d8f122932a023c7395305c99e67fe5131d7" />
+                </Folder>
+                <Folder name="47">
+                    <File name="D:\dai\music\.git\objects\47\177608364f733c72cf30c9b40adaff6bf3cc3d" />
+                    <File name="D:\dai\music\.git\objects\47\d925f3936549baaed9eb28b517099b637b1ff1" />
+                </Folder>
+                <Folder name="49">
+                    <File name="D:\dai\music\.git\objects\49\60e69dad3b6a76b952e67f3ea9faddd2e30ce4" />
+                </Folder>
+                <Folder name="4b">
+                    <File name="D:\dai\music\.git\objects\4b\39a5e7f75a38468908c2fa981f933049be2d1e" />
+                </Folder>
+                <Folder name="4d">
+                    <File name="D:\dai\music\.git\objects\4d\a60b153721387d24500b3d84727fc57086dbb9" />
+                </Folder>
+                <Folder name="50">
+                    <File name="D:\dai\music\.git\objects\50\178837c22f434c5cf15381bd945e097f677c7e" />
+                    <File name="D:\dai\music\.git\objects\50\22b32dc7b8979e75c2ae86be2758a5e0250b2b" />
+                </Folder>
+                <Folder name="52">
+                    <File name="D:\dai\music\.git\objects\52\3d3effcad489f7ae1f312b209373375f6fed24" />
+                </Folder>
+                <Folder name="53">
+                    <File name="D:\dai\music\.git\objects\53\98502c97f30ad7e2b0224aa4cc0668178ec5c1" />
+                </Folder>
+                <Folder name="55">
+                    <File name="D:\dai\music\.git\objects\55\23fcd0bcb0860d4761bb83d7da8ead45ecafc1" />
+                </Folder>
+                <Folder name="56">
+                    <File name="D:\dai\music\.git\objects\56\905506ca88b37249fe1eb0f82f68e6e0f7d440" />
+                </Folder>
+                <Folder name="58">
+                    <File name="D:\dai\music\.git\objects\58\a3a25edbf6fe3c4675db13a7f6bbf425ccab43" />
+                </Folder>
+                <Folder name="59">
+                    <File name="D:\dai\music\.git\objects\59\d89f902125009460ddfffa03e8881b4e41b80b" />
+                </Folder>
+                <Folder name="5a">
+                    <File name="D:\dai\music\.git\objects\5a\91e1a4d535efb98768ac16d142a309ad70cc13" />
+                </Folder>
+                <Folder name="5d">
+                    <File name="D:\dai\music\.git\objects\5d\2a8488acd2b424879a44f81a7d1cc172d52003" />
+                    <File name="D:\dai\music\.git\objects\5d\2d6c2fbd5d2dd4c0da493c97f1d4fbe621d919" />
+                    <File name="D:\dai\music\.git\objects\5d\7334af18fe4e98d15e11eaabe4fd6a4d1340ef" />
+                    <File name="D:\dai\music\.git\objects\5d\efbfd9c0318323ef92d18048b1f0b1148996fa" />
+                </Folder>
+                <Folder name="61">
+                    <File name="D:\dai\music\.git\objects\61\46abe658f09d06a16977385d4c3edf56a22997" />
+                    <File name="D:\dai\music\.git\objects\61\8dd2975638b441ec754ed5baf557332a1e0ef1" />
+                </Folder>
+                <Folder name="64">
+                    <File name="D:\dai\music\.git\objects\64\757aa973734ac02f2fb530c8fab8fbc76c8157" />
+                    <File name="D:\dai\music\.git\objects\64\9d4dbacb14144d4ff2d5b04e7dd7d560757912" />
+                </Folder>
+                <Folder name="68">
+                    <File name="D:\dai\music\.git\objects\68\2e64975784aadeb79fe0d05587402fcb01076e" />
+                    <File name="D:\dai\music\.git\objects\68\9c9d0c41b146fe49e7f9dad381065d107caed6" />
+                </Folder>
+                <Folder name="6b">
+                    <File name="D:\dai\music\.git\objects\6b\3a2d57e47d0d8327c5a370c3ac0ac2a93cffa4" />
+                    <File name="D:\dai\music\.git\objects\6b\6b4748f590008462957de778ba186675a2f4c3" />
+                </Folder>
+                <Folder name="6c">
+                    <File name="D:\dai\music\.git\objects\6c\b294c25b8e7a9e45300477fefe822efe7bec1d" />
+                </Folder>
+                <Folder name="6d">
+                    <File name="D:\dai\music\.git\objects\6d\fa9c6b2d11abbbc49a5b5137c7e7cb6bc30f3f" />
+                </Folder>
+                <Folder name="6e">
+                    <File name="D:\dai\music\.git\objects\6e\102db97abac2e15e5de5897be8b803e05e4634" />
+                    <File name="D:\dai\music\.git\objects\6e\ef9afe5ffb68393128f0deb96928d284800f30" />
+                </Folder>
+                <Folder name="6f">
+                    <File name="D:\dai\music\.git\objects\6f\b6f859a6e50fe55a9702b9ebdfdb4918c4fd16" />
+                </Folder>
+                <Folder name="74">
+                    <File name="D:\dai\music\.git\objects\74\887a26f1244ce09f37e77cd34894f742fa30f5" />
+                </Folder>
+                <Folder name="75">
+                    <File name="D:\dai\music\.git\objects\75\3b69550ae7b7b4160a135351c55ac8dc5a3347" />
+                </Folder>
+                <Folder name="78">
+                    <File name="D:\dai\music\.git\objects\78\64824c22d498c8ced4d80b4b5b2d4b66913ea6" />
+                    <File name="D:\dai\music\.git\objects\78\de4274d4c2f68fcbc44c63aab3c34028dae9ba" />
+                </Folder>
+                <Folder name="79">
+                    <File name="D:\dai\music\.git\objects\79\a6d5f70afb4080ce4b618d54310572005caacb" />
+                </Folder>
+                <Folder name="7a">
+                    <File name="D:\dai\music\.git\objects\7a\8162a1a1aeab913a9bf9eb7680180e0e823cb6" />
+                    <File name="D:\dai\music\.git\objects\7a\d03580f906abf446a4d903a43b476fc9eb165f" />
+                </Folder>
+                <Folder name="7b">
+                    <File name="D:\dai\music\.git\objects\7b\1bd7d81038448b94909f635aa5210da1ad7911" />
+                </Folder>
+                <Folder name="7e">
+                    <File name="D:\dai\music\.git\objects\7e\1aae70c7b3ae80068d2811074bc2aff7aae185" />
+                </Folder>
+                <Folder name="80">
+                    <File name="D:\dai\music\.git\objects\80\9a7306b9db8e797802bbc7d0700746cf217830" />
+                </Folder>
+                <Folder name="82">
+                    <File name="D:\dai\music\.git\objects\82\9529d4c5d52ab8a213591b585a94dabb270fa2" />
+                </Folder>
+                <Folder name="83">
+                    <File name="D:\dai\music\.git\objects\83\928eef2c36059cfd7ccb2342eaf7fffdc63dd0" />
+                </Folder>
+                <Folder name="84">
+                    <File name="D:\dai\music\.git\objects\84\2d60f68da8fd12c541fea5720aeeb06c092b5a" />
+                </Folder>
+                <Folder name="85">
+                    <File name="D:\dai\music\.git\objects\85\2fdcfc030825f38d5b9ba33b3fcbebce0b9c43" />
+                    <File name="D:\dai\music\.git\objects\85\b98b189bb2f9f22b8fd35f0f478b5e6d4d1695" />
+                </Folder>
+                <Folder name="88">
+                    <File name="D:\dai\music\.git\objects\88\48e663980e1ffcbb6bcb31f031106c6f0f6164" />
+                </Folder>
+                <Folder name="8f">
+                    <File name="D:\dai\music\.git\objects\8f\0a4f420a3aaa6bda35b79b151e30e7fc072aa5" />
+                    <File name="D:\dai\music\.git\objects\8f\a60395d8edf1d78d6eeed2de4201a550165141" />
+                </Folder>
+                <Folder name="96">
+                    <File name="D:\dai\music\.git\objects\96\85c9197687b12035632b3bbc623c15b7251958" />
+                </Folder>
+                <Folder name="97">
+                    <File name="D:\dai\music\.git\objects\97\926d949c13c331d6655a191c9ba8b05142ddc0" />
+                </Folder>
+                <Folder name="98">
+                    <File name="D:\dai\music\.git\objects\98\add82f1dd5721108eb8a2061358fe6793958cb" />
+                </Folder>
+                <Folder name="9c">
+                    <File name="D:\dai\music\.git\objects\9c\f7ee231549100cc1e95f2f1024c9c046e45812" />
+                </Folder>
+                <Folder name="9d">
+                    <File name="D:\dai\music\.git\objects\9d\216c2b201b99fd991fdf83bb41c475fd30e489" />
+                    <File name="D:\dai\music\.git\objects\9d\e52af10183c0ed4109610a5f4cb15796a990df" />
+                </Folder>
+                <Folder name="9f">
+                    <File name="D:\dai\music\.git\objects\9f\73416c90669b43bc4c504e29a40b14bfbbe006" />
+                </Folder>
+                <Folder name="a1">
+                    <File name="D:\dai\music\.git\objects\a1\49e1b42beee96161e126d6634976646fbcc4da" />
+                    <File name="D:\dai\music\.git\objects\a1\5bc12e1d1a2b8e6e2afc468d66e58fc9cc0d24" />
+                    <File name="D:\dai\music\.git\objects\a1\ab943053d33364a0df8295e4522eceef409812" />
+                </Folder>
+                <Folder name="a2">
+                    <File name="D:\dai\music\.git\objects\a2\e1bdca3c9aec5daa561c7f4d1364634fa36835" />
+                    <File name="D:\dai\music\.git\objects\a2\f211137fcaf45004ce7251a781b116998a4bbb" />
+                </Folder>
+                <Folder name="a4">
+                    <File name="D:\dai\music\.git\objects\a4\35d4d5a27808f14843cee1c71c6e03260c22a8" />
+                </Folder>
+                <Folder name="a7">
+                    <File name="D:\dai\music\.git\objects\a7\640cd0716dd750f5ef71e2a19bc19c71e89b1e" />
+                </Folder>
+                <Folder name="a8">
+                    <File name="D:\dai\music\.git\objects\a8\b377a5de9d188fddb869a3e723a6da10e68961" />
+                </Folder>
+                <Folder name="a9">
+                    <File name="D:\dai\music\.git\objects\a9\7b007176b9d4ab24b03fe3a1902ce89e4f0e55" />
+                </Folder>
+                <Folder name="ab">
+                    <File name="D:\dai\music\.git\objects\ab\2169ed3c274c29d6ad21aebb9ebc6e128a8a04" />
+                </Folder>
+                <Folder name="ac">
+                    <File name="D:\dai\music\.git\objects\ac\55453314fbe3d01d75c8a3b6d7882b54d685da" />
+                </Folder>
+                <Folder name="ae">
+                    <File name="D:\dai\music\.git\objects\ae\d2bcb7a37e3b8aa43a5b01d6f43e6afdf16216" />
+                </Folder>
+                <Folder name="af">
+                    <File name="D:\dai\music\.git\objects\af\fe5e2f548919eb088a423badff0435f7b72cd7" />
+                </Folder>
+                <Folder name="b0">
+                    <File name="D:\dai\music\.git\objects\b0\7decff6a3796b2b9581ba2dfa478956e05e1f2" />
+                </Folder>
+                <Folder name="b2">
+                    <File name="D:\dai\music\.git\objects\b2\1ad567e1ed099a314428882ef14bf3e6e1744e" />
+                    <File name="D:\dai\music\.git\objects\b2\f53cee45f7b4d11845e92ffacbf7d3cf35baca" />
+                    <File name="D:\dai\music\.git\objects\b2\f9c0326a5e548b175cdd9895d66b56deb0238a" />
+                </Folder>
+                <Folder name="b6">
+                    <File name="D:\dai\music\.git\objects\b6\97f11e2bcf751d1291182d5aafe0ab0c26618e" />
+                </Folder>
+                <Folder name="b7">
+                    <File name="D:\dai\music\.git\objects\b7\aaaab7dba55cda44de8e280a58b87ba2cb975c" />
+                    <File name="D:\dai\music\.git\objects\b7\f606ccf2f672dcf74243f2a8bc3a1813555db0" />
+                </Folder>
+                <Folder name="b8">
+                    <File name="D:\dai\music\.git\objects\b8\1859f7bb2ef08fee9fe08423058564dea92574" />
+                    <File name="D:\dai\music\.git\objects\b8\3fe5f28f8709b8102239d65b95b805830b379b" />
+                </Folder>
+                <Folder name="bb">
+                    <File name="D:\dai\music\.git\objects\bb\19350e400db5edb9de474935394a3e28db7f0c" />
+                </Folder>
+                <Folder name="bc">
+                    <File name="D:\dai\music\.git\objects\bc\329d5d6001f75471f6021df0b21df82d4fc743" />
+                </Folder>
+                <Folder name="bf">
+                    <File name="D:\dai\music\.git\objects\bf\c4a8a1f9a3c597b8f2ac487eeb4b92a3fdb7d4" />
+                </Folder>
+                <Folder name="c1">
+                    <File name="D:\dai\music\.git\objects\c1\5475a7ab809cdd4771b6c40ac8a17e1c13b6f4" />
+                </Folder>
+                <Folder name="c3">
+                    <File name="D:\dai\music\.git\objects\c3\12ea4945f1482080da8e652d794837ddf47eef" />
+                </Folder>
+                <Folder name="c5">
+                    <File name="D:\dai\music\.git\objects\c5\a33e8d05f040a28c044fe14eb0b78cf7f7d179" />
+                </Folder>
+                <Folder name="c6">
+                    <File name="D:\dai\music\.git\objects\c6\229db3c393debe920b3ba72868406fdf6ab1cb" />
+                </Folder>
+                <Folder name="c8">
+                    <File name="D:\dai\music\.git\objects\c8\cd769090ac77c2cdc2b1cbae719fc9f0431510" />
+                </Folder>
+                <Folder name="c9">
+                    <File name="D:\dai\music\.git\objects\c9\fb43839de1eb8359f515669d97df8b488657cf" />
+                </Folder>
+                <Folder name="ca">
+                    <File name="D:\dai\music\.git\objects\ca\fcb4b8419516c5403f5d23c7c3e02c910f7ef9" />
+                </Folder>
+                <Folder name="cb">
+                    <File name="D:\dai\music\.git\objects\cb\d1e519e99a3995d225f22e66ec03510f0a0bf8" />
+                </Folder>
+                <Folder name="cd">
+                    <File name="D:\dai\music\.git\objects\cd\a9c11f3ff9760264eae7dfe2f5d468c947fc81" />
+                    <File name="D:\dai\music\.git\objects\cd\fe4ee662ed4e60469499bcb82903b12f519dbf" />
+                </Folder>
+                <Folder name="cf">
+                    <File name="D:\dai\music\.git\objects\cf\be8cc625d243b2fdbafce349011377a05a7278" />
+                </Folder>
+                <Folder name="d2">
+                    <File name="D:\dai\music\.git\objects\d2\b86f919f681bc8bf9c2f1acfbac6b75ab1591f" />
+                </Folder>
+                <Folder name="d4">
+                    <File name="D:\dai\music\.git\objects\d4\10808cea09caad196fb7f89acc6f0d7d83192d" />
+                    <File name="D:\dai\music\.git\objects\d4\bd55dfffba771724478fbc3a263b63d73a3de3" />
+                    <File name="D:\dai\music\.git\objects\d4\fbe4ecf16b4e8ba467447e9508333e15fa7069" />
+                </Folder>
+                <Folder name="d5">
+                    <File name="D:\dai\music\.git\objects\d5\64d0bc3dd917926892c55e3706cc116d5b165e" />
+                </Folder>
+                <Folder name="d7">
+                    <File name="D:\dai\music\.git\objects\d7\de63c59aaae5719ca583192fedfd6534bd5157" />
+                </Folder>
+                <Folder name="d9">
+                    <File name="D:\dai\music\.git\objects\d9\baf4170b60f1ff2d7c355d51f6e1e9ce13ee63" />
+                </Folder>
+                <Folder name="da">
+                    <File name="D:\dai\music\.git\objects\da\6b0a79ac09559da2538c5634a925e966ca96d0" />
+                </Folder>
+                <Folder name="db">
+                    <File name="D:\dai\music\.git\objects\db\a58b5fe79ee53f4eccd54ec182195103117441" />
+                </Folder>
+                <Folder name="dc">
+                    <File name="D:\dai\music\.git\objects\dc\9e72228edf7d7bc3945436d4a8452211b744c1" />
+                </Folder>
+                <Folder name="de">
+                    <File name="D:\dai\music\.git\objects\de\257e4b9f65f510f07146dd4682108f510c0023" />
+                </Folder>
+                <Folder name="e1">
+                    <File name="D:\dai\music\.git\objects\e1\5f3888a39fad45ca7d8a3e617e63ea0d3c243c" />
+                </Folder>
+                <Folder name="e3">
+                    <File name="D:\dai\music\.git\objects\e3\3087dc3b5fb25e0de05fde7d933a3495501a19" />
+                </Folder>
+                <Folder name="e4">
+                    <File name="D:\dai\music\.git\objects\e4\abf34ac72cb1b9a72f4a2746432280618f5736" />
+                </Folder>
+                <Folder name="e5">
+                    <File name="D:\dai\music\.git\objects\e5\9f4f5216e2bdea8766e09d65df914ce9d7fda8" />
+                </Folder>
+                <Folder name="e6">
+                    <File name="D:\dai\music\.git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391" />
+                </Folder>
+                <Folder name="e8">
+                    <File name="D:\dai\music\.git\objects\e8\38c29077dd30fd4f173b4dcbb957369077c148" />
+                </Folder>
+                <Folder name="ea">
+                    <File name="D:\dai\music\.git\objects\ea\8e3ebc30beeccc101a5b42867ebf58c4562f26" />
+                    <File name="D:\dai\music\.git\objects\ea\dfce8df13f81d19b1e4a1bb6716aca866473de" />
+                </Folder>
+                <Folder name="eb">
+                    <File name="D:\dai\music\.git\objects\eb\a47b244c553c1f4e99cd78f3ade8216f0eed75" />
+                    <File name="D:\dai\music\.git\objects\eb\fd11580ef9a8aa7c89e27d5da27388782ad518" />
+                </Folder>
+                <Folder name="ed">
+                    <File name="D:\dai\music\.git\objects\ed\b9d742e0878616dccef3d59f6fcafeaae25cce" />
+                </Folder>
+                <Folder name="ef">
+                    <File name="D:\dai\music\.git\objects\ef\ede5c1e07ca29366e292f080ee7886c1ebc1c0" />
+                </Folder>
+                <Folder name="f1">
+                    <File name="D:\dai\music\.git\objects\f1\67b42a978d1dcbfb311d77499c31355db07838" />
+                </Folder>
+                <Folder name="f4">
+                    <File name="D:\dai\music\.git\objects\f4\fa594b478a9981cc1c7f8faa0fd2052171fa95" />
+                </Folder>
+                <Folder name="f5">
+                    <File name="D:\dai\music\.git\objects\f5\3871375a0fd6b1f3d26fcfa8c6f10371ac14ed" />
+                    <File name="D:\dai\music\.git\objects\f5\bd5df28abe489bc732c1c67651e5474ba2415d" />
+                </Folder>
+                <Folder name="f8">
+                    <File name="D:\dai\music\.git\objects\f8\72f2cb7282a6269ab84196ec1a31cef4cbd121" />
+                </Folder>
+                <Folder name="fa">
+                    <File name="D:\dai\music\.git\objects\fa\9a7e52de9dce6467e7f3b250b581c30e898610(1)" />
+                    <File name="D:\dai\music\.git\objects\fa\9e3199244b267d9a5aad951a7f9d683b49c8e5" />
+                </Folder>
+                <Folder name="fc">
+                    <File name="D:\dai\music\.git\objects\fc\0929323f8dc1da61ff6b8d667b1c91a2fcc7c4" />
+                </Folder>
+                <Folder name="info" />
+                <Folder name="pack" />
+            </Folder>
+            <Folder name="refs">
+                <Folder name="heads">
+                    <File name="D:\dai\music\.git\refs\heads\master" />
+                </Folder>
+                <Folder name="remotes">
+                    <Folder name="origin">
+                        <File name="D:\dai\music\.git\refs\remotes\origin\master" />
+                    </Folder>
+                </Folder>
+                <Folder name="tags" />
+            </Folder>
+            <File name="D:\dai\music\.git\COMMIT_EDITMSG" />
+            <File name="D:\dai\music\.git\config" />
+            <File name="D:\dai\music\.git\description" />
+            <File name="D:\dai\music\.git\HEAD" />
+            <File name="D:\dai\music\.git\index" />
+        </Folder>
+        <Folder name="build">
+            <File name="D:\dai\music\build\build.js" />
+            <File name="D:\dai\music\build\check-versions.js" />
+            <File name="D:\dai\music\build\dev-client.js" />
+            <File name="D:\dai\music\build\dev-server.js" />
+            <File name="D:\dai\music\build\utils.js" />
+            <File name="D:\dai\music\build\vue-loader.conf.js" />
+            <File name="D:\dai\music\build\webpack.base.conf.js" />
+            <File name="D:\dai\music\build\webpack.dev.conf.js" />
+            <File name="D:\dai\music\build\webpack.prod.conf.js" />
+        </Folder>
+        <Folder name="config">
+            <File name="D:\dai\music\config\dev.env.js" />
+            <File name="D:\dai\music\config\index.js" />
+            <File name="D:\dai\music\config\prod.env.js" />
+        </Folder>
+        <Folder name="dist">
+            <Folder name="static">
+                <Folder name="css">
+                    <File name="D:\dai\music\dist\static\css\app.cf0bbb425348204f6d41c02eb7310784.css" />
+                    <File name="D:\dai\music\dist\static\css\app.cf0bbb425348204f6d41c02eb7310784.css.map" />
+                </Folder>
+                <Folder name="img">
+                    <File name="D:\dai\music\dist\static\img\music-icon.8a34857.svg" />
+                    <File name="D:\dai\music\dist\static\img\no-result@3x.2858208.png" />
+                </Folder>
+                <Folder name="js">
+                    <File name="D:\dai\music\dist\static\js\0.d1f25ba1f7e08d8af163.js" />
+                    <File name="D:\dai\music\dist\static\js\0.d1f25ba1f7e08d8af163.js.map" />
+                    <File name="D:\dai\music\dist\static\js\1.bb7f6beeb1f3ade2e11c.js" />
+                    <File name="D:\dai\music\dist\static\js\1.bb7f6beeb1f3ade2e11c.js.map" />
+                    <File name="D:\dai\music\dist\static\js\2.5cd3384254927a88991e.js" />
+                    <File name="D:\dai\music\dist\static\js\2.5cd3384254927a88991e.js.map" />
+                    <File name="D:\dai\music\dist\static\js\3.cb4675bc0e7ca4003299.js" />
+                    <File name="D:\dai\music\dist\static\js\3.cb4675bc0e7ca4003299.js.map" />
+                    <File name="D:\dai\music\dist\static\js\4.6c7b4e449a96ff78267e.js" />
+                    <File name="D:\dai\music\dist\static\js\4.6c7b4e449a96ff78267e.js.map" />
+                    <File name="D:\dai\music\dist\static\js\5.638199cfdd4f9eebb9c4.js" />
+                    <File name="D:\dai\music\dist\static\js\5.638199cfdd4f9eebb9c4.js.map" />
+                    <File name="D:\dai\music\dist\static\js\6.7220b29f0a6f1bf00629.js" />
+                    <File name="D:\dai\music\dist\static\js\6.7220b29f0a6f1bf00629.js.map" />
+                    <File name="D:\dai\music\dist\static\js\7.31961aaaeae5b665e7ca.js" />
+                    <File name="D:\dai\music\dist\static\js\7.31961aaaeae5b665e7ca.js.map" />
+                    <File name="D:\dai\music\dist\static\js\app.69ba45b432e43a027c87.js" />
+                    <File name="D:\dai\music\dist\static\js\app.69ba45b432e43a027c87.js.map" />
+                    <File name="D:\dai\music\dist\static\js\manifest.8c9ce2576077b8f85260.js" />
+                    <File name="D:\dai\music\dist\static\js\manifest.8c9ce2576077b8f85260.js.map" />
+                </Folder>
+                <File name="D:\dai\music\dist\static\1.png" />
+                <File name="D:\dai\music\dist\static\2.png" />
+                <File name="D:\dai\music\dist\static\3.png" />
+                <File name="D:\dai\music\dist\static\4.png" />
+                <File name="D:\dai\music\dist\static\5.png" />
+            </Folder>
+            <File name="D:\dai\music\dist\index.html" />
+        </Folder>
+        <Folder name="src">
+            <Folder name="api">
+                <File name="D:\dai\music\src\api\config.js" />
+                <File name="D:\dai\music\src\api\rank.js" />
+                <File name="D:\dai\music\src\api\recommend.js" />
+                <File name="D:\dai\music\src\api\search.js" />
+                <File name="D:\dai\music\src\api\singer.js" />
+                <File name="D:\dai\music\src\api\song.js" />
+            </Folder>
+            <Folder name="base">
+                <Folder name="confirm">
+                    <File name="D:\dai\music\src\base\confirm\confirm.vue" />
+                </Folder>
+                <Folder name="listview">
+                    <File name="D:\dai\music\src\base\listview\listview.vue" />
+                </Folder>
+                <Folder name="loading">
+                    <File name="D:\dai\music\src\base\loading\loading.gif" />
+                    <File name="D:\dai\music\src\base\loading\loading.vue" />
+                </Folder>
+                <Folder name="no-result">
+                    <File name="D:\dai\music\src\base\no-result\no-result.vue" />
+                    <File name="D:\dai\music\src\base\no-result\no-result@2x.png" />
+                    <File name="D:\dai\music\src\base\no-result\no-result@3x.png" />
+                </Folder>
+                <Folder name="progress-bar">
+                    <File name="D:\dai\music\src\base\progress-bar\progress-bar.vue" />
+                </Folder>
+                <Folder name="progress-circle">
+                    <File name="D:\dai\music\src\base\progress-circle\progress-circle.vue" />
+                </Folder>
+                <Folder name="scroll">
+                    <File name="D:\dai\music\src\base\scroll\scroll.vue" />
+                </Folder>
+                <Folder name="search-box">
+                    <File name="D:\dai\music\src\base\search-box\search-box.vue" />
+                </Folder>
+                <Folder name="search-list">
+                    <File name="D:\dai\music\src\base\search-list\search-list.vue" />
+                </Folder>
+                <Folder name="slider">
+                    <File name="D:\dai\music\src\base\slider\slider.vue" />
+                </Folder>
+                <Folder name="song-list">
+                    <File name="D:\dai\music\src\base\song-list\first@2x.png" />
+                    <File name="D:\dai\music\src\base\song-list\first@3x.png" />
+                    <File name="D:\dai\music\src\base\song-list\second@2x.png" />
+                    <File name="D:\dai\music\src\base\song-list\second@3x.png" />
+                    <File name="D:\dai\music\src\base\song-list\song-list.vue" />
+                    <File name="D:\dai\music\src\base\song-list\third@2x.png" />
+                    <File name="D:\dai\music\src\base\song-list\third@3x.png" />
+                </Folder>
+                <Folder name="switches">
+                    <File name="D:\dai\music\src\base\switches\switches.vue" />
+                </Folder>
+                <Folder name="top-tip">
+                    <File name="D:\dai\music\src\base\top-tip\top-tip.vue" />
+                </Folder>
+            </Folder>
+            <Folder name="common">
+                <Folder name="fonts">
+                    <File name="D:\dai\music\src\common\fonts\music-icon.eot" />
+                    <File name="D:\dai\music\src\common\fonts\music-icon.svg" />
+                    <File name="D:\dai\music\src\common\fonts\music-icon.ttf" />
+                    <File name="D:\dai\music\src\common\fonts\music-icon.woff" />
+                </Folder>
+                <Folder name="image">
+                    <File name="D:\dai\music\src\common\image\default.png" />
+                </Folder>
+                <Folder name="js">
+                    <File name="D:\dai\music\src\common\js\cache.js" />
+                    <File name="D:\dai\music\src\common\js\config.js" />
+                    <File name="D:\dai\music\src\common\js\dom.js" />
+                    <File name="D:\dai\music\src\common\js\jsonp.js" />
+                    <File name="D:\dai\music\src\common\js\mixin.js" />
+                    <File name="D:\dai\music\src\common\js\singer.js" />
+                    <File name="D:\dai\music\src\common\js\song.js" />
+                    <File name="D:\dai\music\src\common\js\util.js" />
+                </Folder>
+                <Folder name="stylus">
+                    <File name="D:\dai\music\src\common\stylus\base.styl" />
+                    <File name="D:\dai\music\src\common\stylus\icon.styl" />
+                    <File name="D:\dai\music\src\common\stylus\index.styl" />
+                    <File name="D:\dai\music\src\common\stylus\mixin.styl" />
+                    <File name="D:\dai\music\src\common\stylus\reset.styl" />
+                    <File name="D:\dai\music\src\common\stylus\variable.styl" />
+                </Folder>
+            </Folder>
+            <Folder name="components">
+                <Folder name="add-song">
+                    <File name="D:\dai\music\src\components\add-song\add-song.vue" />
+                </Folder>
+                <Folder name="disc">
+                    <File name="D:\dai\music\src\components\disc\disc.vue" />
+                </Folder>
+                <Folder name="m-header">
+                    <File name="D:\dai\music\src\components\m-header\logo@2x.png" />
+                    <File name="D:\dai\music\src\components\m-header\logo@3x.png" />
+                    <File name="D:\dai\music\src\components\m-header\m-header.vue" />
+                </Folder>
+                <Folder name="music-list">
+                    <File name="D:\dai\music\src\components\music-list\music-list.vue" />
+                </Folder>
+                <Folder name="player">
+                    <File name="D:\dai\music\src\components\player\player.vue" />
+                </Folder>
+                <Folder name="playlist">
+                    <File name="D:\dai\music\src\components\playlist\playlist.vue" />
+                </Folder>
+                <Folder name="rank">
+                    <File name="D:\dai\music\src\components\rank\rank.vue" />
+                </Folder>
+                <Folder name="recommend">
+                    <File name="D:\dai\music\src\components\recommend\recommend.vue" />
+                </Folder>
+                <Folder name="search">
+                    <File name="D:\dai\music\src\components\search\search.vue" />
+                </Folder>
+                <Folder name="singer">
+                    <File name="D:\dai\music\src\components\singer\singer.vue" />
+                </Folder>
+                <Folder name="singer-detail">
+                    <File name="D:\dai\music\src\components\singer-detail\singer-detail.vue" />
+                </Folder>
+                <Folder name="suggest">
+                    <File name="D:\dai\music\src\components\suggest\suggest.vue" />
+                </Folder>
+                <Folder name="tab">
+                    <File name="D:\dai\music\src\components\tab\tab.vue" />
+                </Folder>
+                <Folder name="top-list">
+                    <File name="D:\dai\music\src\components\top-list\top-list.vue" />
+                </Folder>
+                <Folder name="user-center">
+                    <File name="D:\dai\music\src\components\user-center\user-center.vue" />
+                </Folder>
+            </Folder>
+            <Folder name="router">
+                <File name="D:\dai\music\src\router\index.js" />
+            </Folder>
+            <Folder name="store">
+                <File name="D:\dai\music\src\store\actions.js" />
+                <File name="D:\dai\music\src\store\getters.js" />
+                <File name="D:\dai\music\src\store\index.js" />
+                <File name="D:\dai\music\src\store\mutation-types.js" />
+                <File name="D:\dai\music\src\store\mutations.js" />
+                <File name="D:\dai\music\src\store\state.js" />
+            </Folder>
+            <File name="D:\dai\music\src\App.vue" />
+            <File name="D:\dai\music\src\main.js" />
+        </Folder>
+        <Folder name="static">
+            <File name="D:\dai\music\static\.gitkeep" />
+            <File name="D:\dai\music\static\1.png" />
+            <File name="D:\dai\music\static\2.png" />
+            <File name="D:\dai\music\static\3.png" />
+            <File name="D:\dai\music\static\4.png" />
+            <File name="D:\dai\music\static\5.png" />
+        </Folder>
+        <File name="D:\dai\music\.babelrc" />
+        <File name="D:\dai\music\.editorconfig" />
+        <File name="D:\dai\music\.eslintignore" />
+        <File name="D:\dai\music\.eslintrc.js" />
+        <File name="D:\dai\music\.gitignore" />
+        <File name="D:\dai\music\.postcssrc.js" />
+        <File name="D:\dai\music\index.html" />
+        <File name="D:\dai\music\package.json" />
+        <File name="D:\dai\music\prod.server.js" />
+        <File name="D:\dai\music\README.md" />
+        <File name="D:\dai\music\&#x4EE3;&#x7801;&#x5730;&#x5740;-github" />
     </Project>
 </NotepadPlus>

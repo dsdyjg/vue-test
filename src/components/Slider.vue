@@ -8,7 +8,7 @@
    <ul>
       <li><router-link to="/Message">我的消息</router-link></li>
 	  <li><router-link to="/">发布话题</router-link></li>
-	  <li><router-link to="/person">个人中心</router-link></li>
+	  <li><a @click="changeUser">个人中心</a></li>
 	  <li><router-link to="/about">关于</router-link></li>
    </ul>
    </div>
@@ -28,8 +28,17 @@ export default{
    methods:{
      ...mapActions([
 	   'hidemenu',
-	   'showlogin'
-	 ])
+	   'showlogin',
+	   'showinfo'
+	 ]),
+	 changeUser(){
+	    this.$router.push({
+		  name:'user',
+		  params:{name:this.userInfo.loginname}
+		});
+		this.showinfo();
+		this.hidemenu();
+	 }
    }
 }
 </script>
@@ -40,6 +49,7 @@ export default{
     width: 100%;
     top: 0px;
     left: 0px;
+	z-index:5;
    .menu{
        width:5rem;
 	   height:100%;
@@ -68,8 +78,8 @@ export default{
 		 }
 	   }
        ul{overflow:hidden;background:#fff;height:100%;}
-	   ul li{list-style:none;width:100%;border-bottom:1px solid #ddd;line-height:1.2rem;}
-	   ul li a{font-size:0.4rem;}
+	   ul li{list-style:none;width:100%;border-bottom:1px solid #ddd;line-height:0.8rem;height:0.8rem;}
+	   ul li a{font-size:0.3rem;display:block;}
    }
    
 }

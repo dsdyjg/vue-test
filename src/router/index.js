@@ -7,7 +7,7 @@ import Share from '@/pages/Share'
 import Job from '@/pages/Job'
 import NContent from '@/pages/Content'
 import Article from '@/components/Article'
-
+import User from '@/pages/User'
 Vue.use(Router)
 
 export default new Router({
@@ -41,6 +41,11 @@ export default new Router({
 		path:'/article/:id',
 		name:'article',
 		component:Article
+	},
+	{
+		path:'/user/:name',
+		name:'user',
+		component:User
 	}
   ]
 })

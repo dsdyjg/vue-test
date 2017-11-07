@@ -10,6 +10,10 @@ export default{
 	},
 	userInfo(state){
 		return state.userInfo;
+	},
+	isInfo(state){
+		return state.isInfo;
 	}
+	
 }
 

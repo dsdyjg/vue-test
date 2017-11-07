@@ -75,7 +75,7 @@ export default{
 	position:absolute;
 	top:0px;
 	left:0px;
-	z-index:3;
+	z-index:5;
 	.login_top{
 	  width:100%;
 	  height:1.2rem;

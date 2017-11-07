@@ -10,7 +10,9 @@ const state={
 	showMenu:false,
 	showLogin:false,
 	ak:localStorage.ak || '',
-	userInfo: localStorage.userInfo && JSON.parse(localStorage.userInfo) || {avatar_url: '', id: '', loginname: '', success: false}
+	userInfo: localStorage.userInfo && JSON.parse(localStorage.userInfo) || {avatar_url: '', id: '', loginname: '', success: false},
+	list:[],
+	isInfo:true
 }
 export default new Vuex.Store({
 	state,

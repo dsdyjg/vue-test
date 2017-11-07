@@ -14,7 +14,14 @@ export default{
 	},
 	hidelogin({commit},flag){
 		commit(type.SHOWLOGIN,false);
+	},
+	hideinfo({commit},flag){
+		commit(type.HIDEINFO,false);
+	},
+	showinfo({commit},flag){
+		commit(type.HIDEINFO,true);
 	}
+	
 	//updateak({commit},ak){
 	//	commit(type.UPDATEAK,ak);
 	//},

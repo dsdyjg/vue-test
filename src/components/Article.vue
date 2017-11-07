@@ -1,4 +1,5 @@
 <template>
+  <transition name="fade-left">
    <div class="article">
       <div class="article-title">
         <h1><span class="flag" v-show="infos.top || infos.good">{{infos.top ? '置顶' : '精华'}}</span>{{infos.title}}</h1>
@@ -8,6 +9,7 @@
       </div>
 	  <div v-html="infos.content" class="md"></div>
    </div>
+   </transition>
 </template>
 <script>
 import moment from 'moment';
@@ -37,6 +39,8 @@ export default{
   .article{
     font-size:0.4rem;
 	color:#999;
+	position:relative;
+	z-index:2;
 	.article-title {
           width: 100%;
           padding-left: 5px;
@@ -68,5 +72,11 @@ export default{
           overflow: hidden;
         }
   }
-  
+  .fade-left-enter-active,.fade-left-leave-active{
+     transition:all 0.3s ease;
+  }
+  .fade-left-enter,.fade-left-leave-active{
+      transform:translateX(100%);
+	  opacity:0;
+  }
 </style>

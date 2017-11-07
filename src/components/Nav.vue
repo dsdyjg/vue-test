@@ -17,6 +17,8 @@ export default{
 <style lang="scss" scoped>
 .tab{
    background:#2196F3;
+   position:relative;
+   z-index:2;
    ul{overflow:hidden;}
    ul li{float:left;width:20%;list-style:none;height:0.8rem;line-height:0.8rem;}
    ul li a{font-size:0.4rem;display:block;}

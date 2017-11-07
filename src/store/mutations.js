@@ -1,4 +1,4 @@
-import {SHOWMENU,SHOWLOGIN,UPDATEAK,UPDATEUSERINFO} from './mutations-type.js'
+import {SHOWMENU,SHOWLOGIN,UPDATEAK,UPDATEUSERINFO,HIDEINFO} from './mutations-type.js'
 export default{
 	[SHOWMENU](state,flag){
 	     state.showMenu=flag;
@@ -16,6 +16,9 @@ export default{
 	  },
 	  [UPDATEUSERINFO](state,userInfo){
 		  state.userInfo=userInfo;
+	  },
+	  [HIDEINFO](state,flag){
+		  state.isInfo=flag;
 	  }
 	  
 	  

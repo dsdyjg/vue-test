@@ -62,7 +62,7 @@ export default {
 			this.page++;
 			this.list = this.list.concat(res.data.data);
 			this.isloding=false;
-			
+
 		})
 	 },
 	 scroll(){

@@ -42,6 +42,7 @@ export default{
     justify-content: center;
     align-items: center;
     box-shadow: 0 1px 10px rgba(0, 0, 0, .2);
+	z-index:3;
     i {
       position: absolute;
       z-index: 1;

@@ -19,7 +19,7 @@ export default {
 	 },
 	 data:{
 	   type: Array,
-	   dafault:null
+	   default:null
 	 },
 	 listenScroll: {
         type: Boolean,
@@ -135,5 +135,7 @@ export default {
 <style>
   .wrapper{
     height:500px;
+	position:relative;
+	z-index:1;
   }
 </style>

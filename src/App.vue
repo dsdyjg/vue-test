@@ -3,7 +3,8 @@
     <NHeader></NHeader>
 	<NNav></NNav>
 	<NSlider v-show="showMenu"></NSlider>
-	<transition name="fade"><router-view></router-view></transition>
+	<router-view></router-view>
+	
 	<NLogin v-if="showLogin"></NLogin>
   </div>
 </template>
@@ -13,10 +14,11 @@ import NHeader from './components/Header'
 import NNav from './components/Nav'
 import NSlider from './components/Slider'
 import NLogin from './pages/Login'
+import NContent from './pages/Content'
 import {mapGetters} from 'vuex'
 export default {
   name: 'app',
-  components:{NHeader,NNav,NSlider,NLogin},
+  components:{NHeader,NNav,NSlider,NLogin,NContent},
   computed:{
    ...mapGetters([
        'showMenu',
@@ -39,9 +41,9 @@ export default {
   height:100%;
 }
 .fade-enter-active,.fade-leave-active{
-   transition:all 0.3s ease;
+   transition:all 3s ease;
 }
-.fade-enter-active,fade-leave-active{
-   opactiy:1;
+.fade-enter,fade-leave-active{
+   opactiy:0;
 }
 </style>
