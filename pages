@@ -17725,6 +17725,7 @@
                 <File name="src\pages\Share.vue" />
                 <File name="src\pages\Content.vue" />
                 <File name="src\pages\List.vue" />
+                <File name="src\pages\User.vue" />
             </Folder>
             <Folder name="router">
                 <File name="src\router\index.js" />

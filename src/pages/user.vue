@@ -15,7 +15,7 @@
 		  <div class="info_list">
 		     <h3>收藏的话题</h3>
 			 <ul>
-			    <li>dgfhgjhkkjl</li>
+			    <li v-for="(item,index) in talk"><router-link :to="{name:'article',params:{id:item.id}}">{{item.title}}</router-link></li>
 			 </ul>
 		  </div>
 		  <div class="info_list">
@@ -34,7 +34,8 @@
       name:'user',
 	  data(){
 	    return{
-		  user:{}
+		  user:{},
+		  talk:[]
 		}
 	  },
 	  computed:{
@@ -53,6 +54,11 @@
 		 .then(res=>{
 		        this.user=res.data.data;
 		    })
+		 this.$http.get(`https://cnodejs.org/api/v1/topic_collect/${this.userInfo.loginname}`)
+		 .then(res=>{
+		    this.talk=res.data.data;
+			console.log(res);
+		 })
 	  },
 	  methods:{
 	    ...mapActions([

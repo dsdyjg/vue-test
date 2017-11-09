@@ -3,7 +3,7 @@
     <NHeader></NHeader>
 	<NNav></NNav>
 	<NSlider v-show="showMenu"></NSlider>
-	<router-view></router-view>
+	<keep-alive><router-view></router-view></keep-alive>
 	
 	<NLogin v-if="showLogin"></NLogin>
   </div>
